@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(172, 177, 182);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.registeration{
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  rgb(250, 250, 250);
+    border-right: 4px solid  grey;
+    border-bottom: 3px solid grey;
+    box-shadow: 3px 5px 5px grey;
+    width: 35.1%;
+    height: 500px;
+}
+
+.registeration p{
+    color:rgb(59, 96, 128) ;
+    margin: 0;
+    padding-bottom: 40px;
+    font-size:2.5vw;
+    font-weight: bolder;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+#fname{
+    height: 20px;
+}
+
+#lname{
+    height: 20px;
+}
+
+#pn{
+    height: 20px;
+}
+
+#gender{
+    height: 30px;
+}
+
+#submit{
+    border: none;
+    color: white;
+    height: 50px;
+    background-color: rgb(59, 96, 128);
+    text-transform:uppercase;
+    font-weight:lighter;
+    font-size: 17.5px;
+}
+
+/* small laptops */
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+    .registeration{
+        width: 50%;
+        height: 500px;
+    }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .registeration{
+        width: 67%;
+        height:  65.2vh;
+    }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 426px){
+    *{
+        margin: auto 0;
+    }
+
+    .registeration{
+        width: 100%;
+        height: 54.1vh;
+        padding: 20px;
+        margin-right: 0;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: none;
+    }
+
+    .registeration p{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 4vw;
+        padding-bottom: 10px;
+    }
+}
