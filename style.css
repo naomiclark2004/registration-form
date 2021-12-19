@@ -74,15 +74,10 @@ body{
 /* mobile */
 
 @media only screen and (max-width: 426px){
-    *{
-        margin: auto 0;
-    }
-
     .registeration{
-        width: 100%;
+        width: 80%;
         height: 54.1vh;
         padding: 20px;
-        margin-right: 0;
         border-right: none;
         border-bottom: none;
         box-shadow: none;
@@ -93,7 +88,7 @@ body{
         margin-bottom: 1em;
         margin-left: 0;
         margin-right: 0;
-        font-size: 4vw;
+        font-size: 5vw;
         padding-bottom: 10px;
     }
 }
