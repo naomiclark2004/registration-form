@@ -67,7 +67,11 @@ body{
 @media only screen and (max-width: 768px) and (min-width: 426px){
     .registeration{
         width: 67%;
-        height:  65.2vh;
+        padding: 20px;
+    }
+
+    .registeration p{
+        padding-bottom: 0px;
     }
 }
 
@@ -76,18 +80,13 @@ body{
 @media only screen and (max-width: 426px){
     .registeration{
         width: 80%;
-        height: 54.1vh;
-        padding: 20px;
         border-right: none;
         border-bottom: none;
         box-shadow: none;
     }
 
     .registeration p{
-        margin-top: 1em;
-        margin-bottom: 1em;
-        margin-left: 0;
-        margin-right: 0;
+        margin:0;
         font-size: 5vw;
         padding-bottom: 10px;
     }
